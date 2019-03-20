@@ -48,7 +48,7 @@ $$
 
 
 #### Homework
-1-4, 12, 13, 19-21
+p.350 1-4, 12, 13, 19-21
 1\. Use the standard inner product in $\R^5$ to determine the angle between the vectors $v = (0, -2, 1, 4, 1)$ and $w = (-3, 1, -1, 0, 3)$.
 >Solution
 $$

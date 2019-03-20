@@ -16,7 +16,7 @@ A set $S$ of nonzero vectors in an inner product space $V$ is called orthogonal 
 **Thm.** Let $V$ be an inner product space with orthogonal basis $B= \{v_1, v_2, v_3\}$. Let $u$ be a vector in $V$, then the component vector of $u$ relative to $B$ is $[u]_B = \begin{bmatrix} \la u, v_1\ra \\ \la u, v_2\ra \\\la u, v_3\ra\end{bmatrix}$.
 
 #### Homework
-1-6 all, 8, 15, 19, 20
+p.359 1-6 all, 8, 15, 19, 20
 
 8\. Let $v_1=(1, 2, 3)$ and $v_2=(1, 1, -1)$. Determine all nonzero vectors $w$ in $\R^3$ such that $[v_1, v_2, w]$ is an orthogonal set.
 >Solution
