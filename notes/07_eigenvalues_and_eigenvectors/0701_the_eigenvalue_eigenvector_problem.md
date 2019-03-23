@@ -1,7 +1,11 @@
 ### 7.1 The Eigenvalue/Eigenvector Problem
 
-#### Definition
+**Eigenvalue/Eigenvector**
 Let $A$ be $m\times n$ matrix. Any values of $\lm$ for which $Av = \lm v$ has _nontrival_ solutions $v$ are called **eigenvalues** of $A$. The corresponding vectors $v$ are called **eigenvectors** of $A$. (also refered as **characteristic** value and **characteristic** vectors).
+
+**Characteristic Polynomial/Euqation**
+The polynomial $det(A-\lm I)$ is the **characteristic polynomial** of **A**. The equation $det(A-\lm I)=0$ is the **characteristic equation** of $A$.
+An eigenvalue of $A$ is a scalar $\lm$ that satisfies the characteristic equation. The eigenvectors of $A$ corresponding to $\lm$ are the **nonzero solution** of $(A-\lm I)v = 0$.
 
 #### Homework
 p.443 1-7 all, 13-31 odd, 35
@@ -88,17 +92,25 @@ $$
 A-\lm I &= \begin{bmatrix}
 7-\lm & 4\\
 -1 & 3-\lm
-\end{bmatrix}\\
-det(A-\lm I) &= (\lm-7)(\lm-3) = 0\\[1.2em]
-\To \lm_1 &= 7, \lm_2 = 3\\[1.2em]
-\lm_1=7 \To &v_1 = \begin{bmatrix}
-0 & 4\\
--1 & -4
-\end{bmatrix}\\
-\lm_2=3 \To &v_2 = \begin{bmatrix}
-4 & 4\\
--1 & 0
-\end{bmatrix}\\
+\end{bmatrix}\\[1.0em]
+det(A-\lm I) &= (\lm-7)(\lm-3) +4 = 0\\
+&=(\lm-5)^2 = 0\\
+\To \lm_1 &= \lm_2 = 5
+\end{aligned}
+$$
+For **eigenvalue $\lm=5$**(AM=2), the eigenvectors are determined by solving the lineary system, $(A-\lm_ I) v_ = 0$. The agumented matrix for the system is
+$$
+\begin{aligned}
+&\begin{array}{cc|c}
+7-5 & 4 & 0\\
+-1 & 3-5 & 0
+\end{array}
+\sim
+\begin{array}{cc|c}
+1 & 2 & 0\\
+0 & 0 & 0
+\end{array}\\
+&\To v=t(-2, 1), t\ne 0
 \end{aligned}
 $$
 
@@ -113,7 +125,7 @@ $$
 \begin{aligned}
 det(A-\lm I) &= (\lm-1)(\lm+2) - 4 = 0\\
 &=(\lm+3)(\lm-2)\\
-\To \lm_1 &= 3, \lm_2= 2\\[1.2em]
+\To \lm_1 &= 3, \lm_2= 2\\[1.0em]
 A = \begin{bmatrix}
 1 & 2\\
 2 & -2
@@ -122,7 +134,7 @@ A = \begin{bmatrix}
 \begin{bmatrix}
 1 & 2\\
 0 & 1
-\end{bmatrix}=B\\[1.2em]
+\end{bmatrix}=B\\[1.0em]
 det(B-\lm I) &= (\lm-1)(\lm-1) - 0 = 0\\
 \To \lm_1 &= \lm_2= 1\\
 \end{aligned}
