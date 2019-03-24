@@ -24,6 +24,45 @@ where we have used the face that $det(S^{-1}) = \dfrac{1}{det(S)}$ in the final 
 + If $A$ is similar to a diagonal matrix, then $A$ is **diagonalizable**.
 + A is diagonalizable **iff** $A$ is nondefective.
 
+#### Examples
+Let $A$ be a $2\times 2$ nondefective matrix. $A$ has one eigenvalue $\lm_1 = 1$ with corresponding eigenvectors $v_1 = t(1, 5)$, and another eigenvalue $\lm_2=7$ with corresponding eigenvectors $v_2 = t(-1, 1)$. Find $A$.
+>Solution
+$A$ is nondefective. Thus, there exists a diagonal matrix $D$ and a matrix $S$ such that $D = S^{-1} A S$
+$$
+\begin{aligned}
+D &= \begin{bmatrix}
+1 & 0\\
+0 & 7
+\end{bmatrix}\\
+S &= \begin{bmatrix}
+1 & -1\\
+5 & 1
+\end{bmatrix}\\
+S^{-1} &= \frac{1}{6}\begin{bmatrix}
+1 & 1\\
+-5 & 1
+\end{bmatrix}\\
+D &= S^{-1} A S\\
+\To A&= S D S^{-1}\\
+&= \begin{bmatrix}
+1 & -1\\
+5 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0\\
+0 & 7
+\end{bmatrix}
+\frac{1}{6}\begin{bmatrix}
+1 & 1\\
+-5 & 1
+\end{bmatrix}\\
+&= \begin{bmatrix}
+6 & -1\\
+-5 & 2
+\end{bmatrix}
+\end{aligned}
+$$
+
 #### Homework
 p.459 1-13 odd
 
@@ -64,7 +103,7 @@ $$
 \end{aligned}
 $$
 The eigenspace is $E = \text{span}\{(0, 1)\}$. The basis of the eigenspace is $\{(0, 1)\}$. (**Geometric multiplicity is 1**).
-Algebraic multiplicity $\ne$ Geometric multiplicity. Thus the matrix is defective and not diagonalizable.
+Algebraic multiplicity $\ne$ Geometric multiplicity. Thus the matrix is **defective** and **not diagonalizable**.
 
 5\. $A = \begin{bmatrix}
 0 & 4\\

@@ -29,5 +29,8 @@ Let $A = \begin{bmatrix}
 1 & 0 & -2 \\
 2 & 1 & 0 \\
 3 & 2 & 1
- \end{bmatrix}$, det(A) $= 1(1) + (-2)(1) = -1 \ne 0$.
+ \end{bmatrix}$,
+ $$
+ det(A) = 1(1) + (-2)(1) = -1 \ne 0
+ $$
  Thus $S$ spans $\R^3$.
