@@ -9,11 +9,10 @@ If v is any nonzero vector in an inner product space **V**, then the vector $u=\
 **Orthogonal**
 A set $S$ of nonzero vectors in an inner product space $V$ is called orthogonal if every pair of vectors in $S$ is **orthogonal**. If, in addition each vector in the set is a unit vector, then S is called **orthonormal**.
 
-**Thm.** If $S$ is an orthogonal set of nonzero vectors in an inner product space $V$, then $S$, is linearly independent.
-
-**Thm.** If $V$ is an inner product space of dimension $n$, then any orthogonal set of $n$ vector is a basis of $V$.
-
-**Thm.** Let $V$ be an inner product space with orthogonal basis $B= \{v_1, v_2, v_3\}$. Let $u$ be a vector in $V$, then the component vector of $u$ relative to $B$ is $[u]_B = \begin{bmatrix} \la u, v_1\ra \\ \la u, v_2\ra \\\la u, v_3\ra\end{bmatrix}$.
+**Theorems**
++ If $S$ is an orthogonal set of nonzero vectors in an inner product space $V$, then $S$, is linearly independent.
++ If $V$ is an inner product space of dimension $n$, then any orthogonal set of $n$ vector is a basis of $V$.
++ Let $V$ be an inner product space with orthogonal basis $B= \{v_1, v_2, v_3\}$. Let $u$ be a vector in $V$, then the component vector of $u$ relative to $B$ is $[u]_B = \begin{bmatrix} \la u, v_1\ra \\ \la u, v_2\ra \\\la u, v_3\ra\end{bmatrix}$.
 
 #### Homework
 p.359 1-6 all, 8, 15, 19, 20

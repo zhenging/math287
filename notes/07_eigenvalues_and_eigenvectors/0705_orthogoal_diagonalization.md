@@ -10,7 +10,7 @@ If $A$ is symmetric, then
 1\. A is diagonalizable.
 2\. All the eigenvalues are real.
 3\. If $\lm_1$ and $\lm_2$ are distinct eigenvalues, then their corresponding eigenvalues are orthogonal.
-4\. $A$ has a set of n orthonormal eigenvectors.
+4\. $A$ has a set of $n$ orthonormal eigenvectors.
 5\. $A$ can be diagonalized with an orthonormal matrix $S$.
 That is, $S^{-1} A S = S^T A S$ is diagnoal.
 That is, $S^{-1} A S = S^T A S = \begin{bmatrix} \lm_1 & 0 & 0 \\ 0 & \lm_2  & 0 \\ 0 & 0 & \lm_3 \end{bmatrix}$ (in the case that $A$ is a $3\times 3$ matrix).

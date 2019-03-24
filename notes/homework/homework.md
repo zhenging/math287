@@ -10,8 +10,6 @@
 4.1 p.252 1-5 odd
 4.2 p.262 20-25 all (#25 A9 also holds)
 4.3 p.273 3-20 all, 23-28 all
-6.4 p.417 10-14 all, 18-22 all, 25-35 all (#19-book answer wrong)
-6.5 p.426 1a, 2a, 3a, 4a
 
 1.1 p.11 1-7 all
 1.2 p.21 1-6 all, 33-35 all, 37-40 all, 42, 43
