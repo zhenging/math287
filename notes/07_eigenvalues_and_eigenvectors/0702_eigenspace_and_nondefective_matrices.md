@@ -9,8 +9,8 @@ Let $\lm$ be an eigenvalue of $A$. The set of all eigenvectors of $\lm$, togethe
 Let $\lm$ be an eigenvalue of $A$. The multiplicity of $\lm$ in the characteristic polynomial is called the **algebraic multiplicity** of $\lm$, The dimension of the eigenspace corresponding to $\lm$ is called the **geometric multiplicity** of $\lm$.
 
 **Defective/Nondefective**
-Let $A$ has $n$ linearly independent eigenvectors, then $A$ is called **nondefective**. Otherwise, $A$ is called **defective**.
-If the algebraic multiplicity equals the geometric multiplicity for each eigenvalue of $A$, then $A$ is **nondefective**. Otherwise,$ A$ is **defective**.
++ Let $A$ has $n$ linearly independent eigenvectors, then $A$ is called **nondefective**. Otherwise, $A$ is called **defective**.
++ If the algebraic multiplicity equals the geometric multiplicity for each eigenvalue of $A$, then $A$ is **nondefective**. Otherwise,$A$ is **defective**.
 
 #### Homework
 p.451 1-15 odd

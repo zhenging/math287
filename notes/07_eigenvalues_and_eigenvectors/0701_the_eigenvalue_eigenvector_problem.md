@@ -1,11 +1,24 @@
 ### 7.1 The Eigenvalue/Eigenvector Problem
 
 **Eigenvalue/Eigenvector**
-Let $A$ be $m\times n$ matrix. Any values of $\lm$ for which $Av = \lm v$ has _nontrival_ solutions $v$ are called **eigenvalues** of $A$. The corresponding vectors $v$ are called **eigenvectors** of $A$. (also refered as **characteristic** value and **characteristic** vectors).
++ Let $A$ be $m\times n$ matrix. Any values of $\lm$ for which $Av = \lm v$ has _nontrival_ solutions $v$ are called **eigenvalues** of $A$.
++ The corresponding vectors $v$ are called **eigenvectors** of $A$. (also refered as **characteristic** value and **characteristic** vectors).
 
 **Characteristic Polynomial/Euqation**
-The polynomial $det(A-\lm I)$ is the **characteristic polynomial** of **A**. The equation $det(A-\lm I)=0$ is the **characteristic equation** of $A$.
-An eigenvalue of $A$ is a scalar $\lm$ that satisfies the characteristic equation. The eigenvectors of $A$ corresponding to $\lm$ are the **nonzero solution** of $(A-\lm I)v = 0$.
++ The polynomial $det(A-\lm I)$ is the **characteristic polynomial** of **A**. The equation $det(A-\lm I)=0$ is the **characteristic equation** of $A$.
++ An eigenvalue of $A$ is a scalar $\lm$ that satisfies the characteristic equation. The eigenvectors of $A$ corresponding to $\lm$ are the **nonzero solution** of $(A-\lm I)v = 0$.
+
+Let $A$ be $n\times n$ matrix, and $I$ be identity matrix.
+$$
+\begin{aligned}
+Av = \lm v\\
+Av = \lm I v\\
+Av - \lm I v = 0\\
+(A-\lm I) v = 0
+\end{aligned}
+$$
+By definition of eigenvalue, we need $\vec{v} \ne \vec{0}$.
+$A-\lm I$ is not **invertible**.
 
 #### Homework
 p.443 1-7 all, 13-31 odd, 35
