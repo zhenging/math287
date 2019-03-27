@@ -10,7 +10,7 @@ If $T: V \to W$ is a linear transformation, then
 + $\text{Ker}(T)$ is a subspace of $V$.
 + $\text{Rng}(T)$ is a subspace of $W$.
 
-If $T: \R^n \to \R^m$ is a linear transformation, then
+If $T:\R^n \to \R^m$ is a linear transformation, then
 + $\text{Ker}(T) = \text{nullspace}(A)$, which is a subspace of $\R^n$
 + $\text{Rng}(T) = \text{colspace}(A)$, which is a subspace of $\R^m$
 
@@ -26,10 +26,19 @@ $$
 If $T: V \to W$ is a linear transformation.
 + $T$ is _one-to-one_ **iff** the preimage of every $w$ in the range consists of a single vector. That is whenever $v_1 \ne v_2, T(v_1) \ne T(v_2)$.
 + $T$ is _onto_ **iff** every element of $W$ has a preimage in $V$.
++ $T$ is one-to-one **iff** $\text{Ker}(T) = {0}$.
++ $T$ is onto **iff** $\text{Rng}(T) = W$. (This is one is immediate from the definition.)
+
+If $T: V \to W$ is a linear transformation, and let $V$ and $W$ be finite-dimensional.
++ (1) $T$ is one-to-one, then $\text{dim}[V] \le \text{dim}[W]$.
++ (2) If $T$ is onto, then $\text{dim}[V] \ge \text{dim}[W]$.
++ (3) If $T$ is both one-to-one and onto, then $\text{dim}[V] = \text{dim}[W]$.
++ (4) If $\text{dim}[V] = \text{dim}[W]$, then $T$ is one-to-one **iff** $T$ is onto.
 
 #### Homework
 p.405 1-7 all, 13b, 14-20 all (see my answers)
-1\. Consider $T: \R^2 \to \R^4$ defined by $T(x) = Ax$, where $A = \begin{bmatrix}
+
+1\. Consider $T:\R^2 \to \R^4$ defined by $T(x) = Ax$, where $A = \begin{bmatrix}
 1 & 2\\
 2 & 4\\
 4 & 8\\
@@ -88,6 +97,5 @@ $\text{dim}[\text{Ker}(T)] = 1$
 $\text{Rng}(T) = \text{span}\{(1, 2, 5), (-2, -3, -8)\}$
 $\text{dim}[\text{Rng}(T)] = 2$
 
-13\, Consider the linear transformation $S: M_n(R) \to M_n(R)$ defined by $S(A) = A + A^T$, where A is a fixed $2\times 2$ matrix
-. Determine a basis for $\text{Ker}(T)$, and hence, find its dimension.
+13\, Consider the linear transformation $S: M_n(R) \to M_n(R)$ defined by $S(A) = A + A^T$, where A is a fixed $2\times 2$ matrix. Determine a basis for $\text{Ker}(T)$, and hence, find its dimension.
 >Solution

@@ -26,6 +26,28 @@ If $T: \R^n \to \R^m$ is a linear transformation, then the matrix of $T$ is $A =
 + Every $m\times n$ matrix represents a linear transformation from $\R^n$ to $\R^m$.
 + Eveyr linear transformation from $\R^n$ to $\R^m$ can be represented by an $m\times n$ matrix.
 
+**Application**
+$T_i: \R^3 \to \R^3$ is a linear transformation that rotates a point in 3d space around $i$ through an angle $\th$ in counterclockwise direction relative to a person facing the negative direction of axis $i$ defined by the matrices
+$$
+\begin{aligned}
+A_x &= \begin{bmatrix}
+1 & 0 & 0\\
+0 & \cos\th & -\sin\th\\
+0 & \sin\th & \cos\th
+\end{bmatrix} \quad
+A_y = \begin{bmatrix}
+\cos\th & 0 & \sin\th\\
+0 & 1 & 0\\
+-\sin\th & 0 & \cos\th
+\end{bmatrix} \quad
+A_z &= \begin{bmatrix}
+\cos\th & -\sin\th & 0\\
+\sin\th & \cos\th & 0\\
+0 & 0 & 1
+\end{bmatrix}
+\end{aligned}
+$$
+
 #### Homework
 p.389 14-23 all
 
