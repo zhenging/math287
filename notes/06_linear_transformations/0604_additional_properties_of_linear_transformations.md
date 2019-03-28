@@ -8,7 +8,7 @@ Let $T:\R^n \to \R^n$ be a linear transformation with matrix $A$.
 + $T^{-1}$ is a lnear transformation with matrix $A^{-1}$.
 
 **Isomorphism and Isomorphic**
-If $T: V \to W$ is a linear transformation that is both one-to-one and ont, then $T$ is called an **isomorphism**, and we say that $V$ and $W$ are **isomorphic**.
+If $T:V \to W$ is a linear transformation that is both one-to-one and ont, then $T$ is called an **isomorphism**, and we say that $V$ and $W$ are **isomorphic**.
 + All $n$-dimensional (real) vector spaces are isomorphic to $\R^n$.
 
 **Theorem**
@@ -40,7 +40,7 @@ Determine whether $T$ is one-to-one, onto,both, or neither. Find $T^{-1}$ or exp
 >Solution
 $T$ is onto but not one-to-one, $T^{-1}$ DNE.
 
-20\. Let $V$ denote the vector space of $2\times 2$ symetrix matrices and define $T: V \to P_2(\R)$ by
+20\. Let $V$ denote the vector space of $2\times 2$ symetrix matrices and define $T:V \to P_2(\R)$ by
 $$
 \begin{aligned}
 T\bigg(\begin{bmatrix}a & b\\ b & c\end{bmatrix}\bigg) = ax^2 + bx + c

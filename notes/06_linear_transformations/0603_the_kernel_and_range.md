@@ -6,7 +6,7 @@ Let $T:V \to W$ be a linear transformation. The set of all vectors $v$ in $V$ su
 **Range**
 The **range** of $T:V \to W$ is the subset of $W$ consisting of all transformed vectors from $V$. The range of T is denoted by $\text{Rng}(T)$.
 
-If $T: V \to W$ is a linear transformation, then
+If $T:V \to W$ is a linear transformation, then
 + $\text{Ker}(T)$ is a subspace of $V$.
 + $\text{Rng}(T)$ is a subspace of $W$.
 
@@ -15,7 +15,7 @@ If $T:\R^n \to \R^m$ is a linear transformation, then
 + $\text{Rng}(T) = \text{colspace}(A)$, which is a subspace of $\R^m$
 
 **General Rank-Nullity Theorem**
-If $T: V \to W$ is a linear transformation and $V$ is finite-dimensional, then
+If $T:V \to W$ is a linear transformation and $V$ is finite-dimensional, then
 $$
 \begin{aligned}
 \text{dim}[\text{Ker}(T)] + \text{dim}[\text{Rng}(T)] = \text{dim}(V)
@@ -23,13 +23,13 @@ $$
 $$
 
 **One-To-One / Onto**
-If $T: V \to W$ is a linear transformation.
+If $T:V \to W$ is a linear transformation.
 + $T$ is _one-to-one_ **iff** the preimage of every $w$ in the range consists of a single vector. That is whenever $v_1 \ne v_2, T(v_1) \ne T(v_2)$.
 + $T$ is _onto_ **iff** every element of $W$ has a preimage in $V$.
 + $T$ is one-to-one **iff** $\text{Ker}(T) = {0}$.
 + $T$ is onto **iff** $\text{Rng}(T) = W$. (This is one is immediate from the definition.)
 
-If $T: V \to W$ is a linear transformation, and let $V$ and $W$ be finite-dimensional.
+If $T:V \to W$ is a linear transformation, and let $V$ and $W$ be finite-dimensional.
 + (1) $T$ is one-to-one, then $\text{dim}[V] \le \text{dim}[W]$.
 + (2) If $T$ is onto, then $\text{dim}[V] \ge \text{dim}[W]$.
 + (3) If $T$ is both one-to-one and onto, then $\text{dim}[V] = \text{dim}[W]$.
@@ -70,7 +70,7 @@ b. $x(-1, -1)$, $T(x) = (-1, -2, -4, -8)$. No.
 c. $x(2, -1)$, $T(x) = (0, 0, 0, 0)$. Yes.
 
 5\. Find $\text{Ker}(T)$ and $\text{Rng}(T)$, and give a geomatrical description of each. Also find $\text{dim}[\text{Ker}(T)]$ and $\text{dim}[\text{Rng}(T)]$, and verify Theorem 6.3.8.
-$T: \R^3 \to \R^3$ defined by $T(x) = Ax$, where $A = \begin{bmatrix}
+$T:\R^3 \to \R^3$ defined by $T(x) = Ax$, where $A = \begin{bmatrix}
 1 & -2 & 1\\
 2 & -3 & -1\\
 5 & -8 & -1
