@@ -5,10 +5,10 @@ If $T$ is both one-to-one and onto, then the **inverse transformation** $T^{-1}:
 
 Let $T:\R^n \to \R^n$ be a linear transformation with matrix $A$.
 + $T^{-1}$ exists **iff** $det(A) \ne 0$.
-+ $T^{-1}$ is a lnear transformation with matrix $A^{-1}$.
++ $T^{-1}$ is a linear transformation with matrix $A^{-1}$.
 
 **Isomorphism and Isomorphic**
-If $T:V \to W$ is a linear transformation that is both one-to-one and ont, then $T$ is called an **isomorphism**, and we say that $V$ and $W$ are **isomorphic**.
+If $T:V \to W$ is a linear transformation that is both one-to-one and onto, then $T$ is called an **isomorphism**, and we say that $V$ and $W$ are **isomorphic**.
 + All $n$-dimensional (real) vector spaces are isomorphic to $\R^n$.
 
 **Theorem**
@@ -24,19 +24,19 @@ The following conditions on $A$ are equivalent.
 7. $A^T$ is invertible.
 8. $\text{nullity}(A) = 0$
 9. $\text{colspace}(A) = \R^n$ (that is, the columns of $A$ form a basis for $\R^n$).
-10. $\text{rowspace}(A) = \R^n$ (that is, the rows of $A$ form a basis for $\R^n$).
+10. $\text{rowspace}(A) = {\R}^n$ (that is, the rows of $A$ form a basis for $\R^n$).
 11. $T$ is an isomorphism.
 
 #### Homework
 p.417 10-14 all, 18-22 all, 25-35 all (#19-book answer wrong)
 
+18-22\. Determine whether $T$ is one-to-one, onto,both, or neither. Find $T^{-1}$ or explain why it does not exist.
 19\. Define $T: P_2(\R^2) \to \R^2$ by
 $$
 \begin{aligned}
 T(ax^2 + bx + c) = (a-3b+2c, b-c)
 \end{aligned}
 $$
-Determine whether $T$ is one-to-one, onto,both, or neither. Find $T^{-1}$ or explain why it does not exist.
 >Solution
 $T$ is onto but not one-to-one, $T^{-1}$ DNE.
 
@@ -46,6 +46,16 @@ $$
 T\bigg(\begin{bmatrix}a & b\\ b & c\end{bmatrix}\bigg) = ax^2 + bx + c
 \end{aligned}
 $$
-Determine whether $T$ is one-to-one, onto,both, or neither. Find $T^{-1}$ or explain why it does not exist.
 >Solution
 $T$ is both onto and one-to-one. $T^{-1}(ax^2 + bx + c) = \begin{bmatrix}a & b\\ b & c\end{bmatrix}$
+
+21\. Define $T:{\R}^3 \to M_2(\R)$ by
+$$
+\begin{aligned}
+T(a, b, c) = \begin{bmatrix}
+-a-3c & a-b-c\\
+2a+b & 0
+\end{bmatrix}
+\end{aligned}
+$$
+>Solution
