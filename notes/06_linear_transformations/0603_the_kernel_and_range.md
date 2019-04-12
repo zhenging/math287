@@ -97,7 +97,7 @@ $\text{dim}[\text{Ker}(T)] = 1$
 $\text{Rng}(T) = \text{span}\{(1, 2, 5), (-2, -3, -8)\}$
 $\text{dim}[\text{Rng}(T)] = 2$
 
-13\. Consider the linear transformation $S: M_n(R) \to M_n(R)$ defined by $S(A) = A + A^T$, where $A$ is a fixed $2\times 2$ matrix. Determine a basis for $\text{Ker}(S)$, and hence, find its dimension.
+13\. Consider the linear transformation $S: M_n(\R) \to M_n(\R)$ defined by $S(A) = A + A^T$, where $A$ is a fixed $2\times 2$ matrix. Determine a basis for $\text{Ker}(S)$, and hence, find its dimension.
 >Solution
 Let $A=\begin{bmatrix}a & b\\c & d\end{bmatrix}$, then
 $$

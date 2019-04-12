@@ -33,6 +33,16 @@ If $V$ is a vector space with basis $B$, then every vector in $V$ can be written
 #### Homework
 p.308 1-7 all, 9-30 all, 32-35 all, 37, 39, 41a, 42a, 45-47 all
 
+1-7\. Determine whether the giver set of vectors is a basis for ${\R}^2$.
+1\. $S = \{(-6, -1)\}$
+>Solution
+$S$ does not span ${\R}^2$.
+
+2\. $S = \{(1, 1), (-1, 1)\}$
+>Solution
+Yes. $S$ spans ${\R}^2$ and is linearly independent.
+$\begin{vmatrix}1 & 1\\ -1 & 1\end{vmatrix} = 2$
+
 20-23\. Find the dimension of the null space of the givern matrix $A$.
 20\. $A = \begin{bmatrix}
 1 & 3\\

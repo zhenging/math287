@@ -98,7 +98,7 @@ c_1\\ c_2\\ c_3
 \end{aligned}
 $$
 
-12\. $V=M_2(R)$; $B=\bigg\{
+12\. $V=M_2(\R)$; $B=\bigg\{
 \begin{bmatrix}
 1 & 1\\
 1 & 1

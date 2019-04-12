@@ -22,7 +22,7 @@ p.426 1a, 2a, 3a, 4a
 
 1-4\. Determine the matrix representation $[T]_B^C$ for the given linear transformation $T$ and ordered bases $B$ and $C$.
 
-1\. $T:M_2(R) \to P_3(\R)$ given by
+1\. $T:M_2(\R) \to P_3(\R)$ given by
 $$
 \begin{aligned}
 T\bigg(\begin{bmatrix} a & b\\c & d\end{bmatrix}\bigg) = (a-d) + 3bx^2 + (c-a)x^3
@@ -45,7 +45,7 @@ $$
 \end{aligned}
 $$
 
-3\. $T:P_2(R) \to P_3(R)$ given by
+3\. $T:P_2(\R) \to P_3(\R)$ given by
 $$
 \begin{aligned}
 T(p(x)) = (x+1)p(x)
@@ -74,7 +74,7 @@ T(v_1) &= 1 + x \\
 \end{aligned}
 $$
 
-2\. $T:P_2(R) \to \R^2$ given by
+2\. $T:P_2(\R) \to \R^2$ given by
 $$
 \begin{aligned}
 T(a+bx+cx^2) = (a-3c, 2a + b-2c)
