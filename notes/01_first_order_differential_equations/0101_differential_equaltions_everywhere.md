@@ -15,6 +15,7 @@ $$
 \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0
 \end{aligned}
 $$
++ **General** Solution, **Particular** Solution and **Initial** Solution
 
 #### Homework
 1.1 p.11 1-7 all
