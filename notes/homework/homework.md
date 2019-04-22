@@ -11,8 +11,6 @@
 4.2 p.262 20-25 all (#25 A9 also holds)
 4.3 p.273 3-20 all, 23-28 all
 
-1.8 p.79 1-23 odd, 25, 26
-1.9 p.91 1-4 all, 5-15 odd, 16, 17 (look at my answers for some of the odds)
 1.12 p.110 17-41 odd
 8.1 p.503 1-5 odd, 6, 7, 10, 13, 17, 18, 23, 25, 28, 30
 8.2 p.513 9-37 odd
