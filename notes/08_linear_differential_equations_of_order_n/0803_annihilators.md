@@ -68,3 +68,72 @@ Function | Annihilator
 
 ##### Homework
 8.3 p.525 1-45 odd
+
+1-15\. Determine the annihilator of the given functions.
+5\.$F(x) = 4 e^{-2x} \sin x$
+>Solution
+$$
+\begin{aligned}
+F(x) &= p_n e^{ax}\cos bx + q_n e^{ax}\sin bx\\
+&= 0 \cdot e^{-2x} \cos (1x) + 4 \cdot e^{-2x} \sin (1x)\\
+p_n &= 0, q_n = 4, n = 0, a = -2, b = 1\\
+A(D) &= (D^2 - 2aD + a^2 + b^2)^{n+1}\\
+&= D^2 - 2\times (- 2) D + (-2)^2 + 1^2\\
+&= D^2 + 4D + 5
+\end{aligned}
+$$
+
+7\. $F(x) = (1-3x)e^{4x} + 2x^2$
+>Solution
+$$
+\begin{aligned}
+F(x) &= p_n e^{ax} + q_m\\
+p_n& = 1-3x, n = 1, a = 4, q_m = 2x^2, m=2\\
+A(D) &= (D-4)^2 D^3
+\end{aligned}
+$$
+
+17-31\. Determine the general solution to the given differential equation. Derive your trail solution to using the annihilator technique.
+17\. $(D-1)(D + 2) y = 5e^{3x}$
+>Solution
+1\. The auxiliary polynomial is $P(r) = (r-1)(r+2)$, so the complementary solution
+$$
+\begin{aligned}
+y_c = c_1 e^x + c_2 e^{-2x}
+\end{aligned}
+$$
+2\. $F(x) = 5e^{3x}$. Its annihilator is $A(D) = D - 3$. Operating on the given differential equation with $A(D)$ yields the homogeneous differential equation
+$$
+\begin{aligned}
+(D-3)(D-1)(D + 2) y = 0
+\end{aligned}
+$$
+with general solution
+$$
+\begin{aligned}
+y(x) = c_1 e^x + c_2 e^{-2x} + A_0 e^{3x}
+\end{aligned}
+$$
+3\. An appropriate trail solution is $y_p(x) = A_0 e^{3x}$. Differentiating $y_p$ twice yields
+$$
+\begin{aligned}
+y'_p = 3 A_0 e^{3x}, y''_p = 9 A_0 e^{3x}
+\end{aligned}
+$$
+4\. Substitue $y_p$ back to the original equation
+$$
+\begin{aligned}
+(D-1)(D + 2) y &= 5e^{3x}\\
+D^2 + D - 2) y &= 5e^{3x}\\
+9 A_0 e^{3x} + 3 A_0 e^{3x} -2 A_0 e^{3x} &= 5e^{3x}\\
+10 A_0 e^{3x} & = 5 e^{3x}\\
+\To A_0 &= \frac{1}{2}
+\end{aligned}
+$$
+Consequently, a particular solution $y_p(x) = \frac{1}{2} e^{3x}$.
+5\. The general solution is
+$$
+\begin{aligned}
+y(x) = c_1 e^x + c_2 e^{-2x} + \frac{1}{2} e^{3x}
+\end{aligned}
+$$
