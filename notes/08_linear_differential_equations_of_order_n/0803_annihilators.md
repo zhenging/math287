@@ -11,7 +11,7 @@ y &= c_1 + c_2 x+ c_3 x^2\\
 & = c_1 e^{0x} + c_2 xe^{0x} + c_3 x^2 e^{0x}\\
 r &= 0, 0, 0\\
 & \text{auxiliary equation:} r^3 = 0\\
-& \text{DE:} D^3 y = 0
+& \text{DE: } D^3 y = 0
 \end{aligned}
 $$
 
@@ -24,7 +24,7 @@ $$
 y &= c e^{3x}\\
 r &= 3\\
 & \text{auxiliary equation:} r - 3 = 0\\
-& \text{DE:} (D-3) y = 0
+& \text{DE: } (D-3) y = 0
 \end{aligned}
 $$
 $c e^{3x}$ is annihilated by $D-3$.
@@ -37,7 +37,7 @@ y &= (c_1 + c_2 x+ c_3 x^2) e^{-5x}\\
 & = c_1 e^{-5x} + c_2 xe^{-5x} + c_3 x^2 e^{-5x}\\
 r &= -5, -5, -5\\
 & \text{auxiliary equation:} (r + 5)^3 = 0\\
-& \text{DE:} (D+5)^3 y = 0
+& \text{DE: } (D+5)^3 y = 0
 \end{aligned}
 $$
 $p_2 e^{-5x}$ is annihilated by $(D+5)^3$.
@@ -51,7 +51,7 @@ y &= c_1 e^{ax}\cos bx + c_2 e^{ax}\sin bx\\
 r &= a \pm bi\\
 & \text{auxiliary equation:} (r - (a+bi)) ((r - (a-bi))) = 0\\
 & r^2 - 2ar + a^2 + b^2 = 0\\
-& \text{DE:} (D^2 - 2aD + a^2 + b^2) y = 0
+& \text{DE: } (D^2 - 2aD + a^2 + b^2) y = 0
 \end{aligned}
 $$
 $c_1 e^{ax}\cos bx + c_2 e^{ax}\sin bx$ is annihilated by $D^2 - 2aD + a^2 + b^2$.

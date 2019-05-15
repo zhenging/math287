@@ -17,6 +17,5 @@ L^{-1}\bigg[\frac{b}{s^2 + b^2}\bigg] &= \sin{bt}
 \end{aligned}
 $$
 
-
 #### Homework
 10.2 p.682 7-21 odd
