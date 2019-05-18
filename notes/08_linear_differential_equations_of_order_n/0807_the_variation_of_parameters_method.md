@@ -2,3 +2,5 @@
 
 #### Homework
 8.7 p.556 1, 2-8 even, 13-15 all
+
+![Graph](../assets/example_876.JPG)

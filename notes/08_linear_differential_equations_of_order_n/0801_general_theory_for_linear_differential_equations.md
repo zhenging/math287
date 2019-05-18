@@ -52,7 +52,6 @@ y' - 2xy = 0
 \end{aligned}
 $$
 
-
 **Homogeneous Linear Differential Equation**
 Now consider the general n-th order linear differential equation
 $$

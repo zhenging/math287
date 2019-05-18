@@ -3,7 +3,7 @@
 Let $A$ be $n\times n$ matrices.
 
 **Eigenspace**
-Let $\lm$ be an eigenvalue of $A$. The set of all eigenvectors of $\lm$, together with the zero vector, is a subspect of $\R^n$. We call this subspace the **eigenspace** of $\lm$.
+Let $\lm$ be an eigenvalue of $A$. The set of all eigenvectors of $\lm$, together with the zero vector, is a subspace of $\R^n$. We call this subspace the **eigenspace** of $\lm$.
 
 **Algebraic Multiplicity and Geometric Multiplicity**
 Let $\lm$ be an eigenvalue of $A$. The multiplicity of $\lm$ in the characteristic polynomial is called the **algebraic multiplicity** of $\lm$, The dimension of the eigenspace corresponding to $\lm$ is called the **geometric multiplicity** of $\lm$.

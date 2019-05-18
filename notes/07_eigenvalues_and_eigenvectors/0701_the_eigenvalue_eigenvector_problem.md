@@ -138,7 +138,7 @@ $$
 \begin{aligned}
 det(A-\lm I) &= (\lm-1)(\lm+2) - 4 = 0\\
 &=(\lm+3)(\lm-2)\\
-\To \lm_1 &= 3, \lm_2= 2\\[1.0em]
+\To \lm_1 &= -3, \lm_2= 2\\[1.0em]
 A = \begin{bmatrix}
 1 & 2\\
 2 & -2

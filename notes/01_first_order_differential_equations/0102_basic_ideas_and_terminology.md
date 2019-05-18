@@ -17,7 +17,7 @@ y''' +  e^{3x}y'' + x^3y' + (\cos x)y &= \ln x\\
 xy' - \frac{2}{1+x^2}y &= 0
 \end{aligned}
 $$
-The following equationsare nonlinear. In the first case, the nonlinearity arises from the $\cos(y')$ term, whereas in the second equations the nonlinearity is due to the $y^2$ term.
+The following equation sare nonlinear. In the first case, the nonlinearity arises from the $\cos(y')$ term, whereas in the second equations the nonlinearity is due to the $y^2$ term.
 $$
 \begin{aligned}
 y'' +  x^4 \cos(y') - xy &= e^{x^2}\\

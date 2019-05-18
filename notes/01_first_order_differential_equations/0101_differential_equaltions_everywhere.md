@@ -3,7 +3,7 @@
 + A **differential equations** is any equation that involves one or more derivatives of an unknown function. For example:
 $$
 \begin{aligned}
-\tag{1.1.1} \frac{d^2y}{dx^2} + x^2 \frac{dy}{dx} + y^2 = 5\sin x\\
+\tag{1.1.1} \frac{d^2y}{dx^2} + x^2 \frac{dy}{dx} + y^2 = 5\sin x
 \end{aligned}
 $$
 
