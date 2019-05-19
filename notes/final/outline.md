@@ -22,12 +22,23 @@
 + [x] Properties
 
 #### 4. Vector Spaces
-+ [ ] Definition of Vector Space
-+ [ ] Subspaces
-+ [ ] Spanning Sets
-+ [ ] Linear Dependence and Independence
-+ [ ] Basis And Dimension
-+ [ ] Change of Basis
++ [x] Definition of Vector Space
++ [x] Subspaces
++ [x] Nullspace
++ [x] Spanning Sets
+  + Linear Combination
+  + Linear Span
++ [x] Linear Dependence and Independence
+  + Linearly Independent
+  + Linearly Dependent
+  + Wronskian
++ [x] Basis And Dimension
+  + Standard Basis
+  + Extend Basis
++ [x] **Change of Basis**
++ [x] Row space and Column Space
++ [x] Rank-Nullity Theorem
+  + Particular Solution
 
 #### 5. Inner Product Spaces
 + [ ] Definition of Inner Product Spaces

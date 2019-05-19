@@ -1,7 +1,7 @@
 ### 0302 Properties of Determinants
 Props:
 1. Let $A$ has a row or column o f 0s, then $|A| = 0$.
-2. If $A$ is a triangular matrix, then $|A| = $ products of diagonals.
+2. If $A$ is a triangular matrix, then $|A|=$ products of diagonals.
 3. $|AB| = |A| |B|$
 4. $\d |A^{-1}| = \frac{1}{|A|}$
 5. $|A^T| = |A|$
