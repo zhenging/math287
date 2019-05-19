@@ -15,6 +15,8 @@ $$
 Then $B'$ is an orthogonal basis for $V$. Scale the $w_i's$ if desired.
 (3) Let $B'' = \{u_1, u_2, u_3\}$ where $u_i = \dfrac{w_i}{||w_i||}$. Then $B''$ is an orthonormal basis for $V$.
 
+![Graph](../assets/gram_schmidt_ex1.JPG)
+
 #### Homework
 p.365 1-13 odd, 17-21 odd, 22-24 all
 

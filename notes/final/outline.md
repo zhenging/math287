@@ -29,8 +29,7 @@
   + Linear Combination
   + Linear Span
 + [x] Linear Dependence and Independence
-  + Linearly Independent
-  + Linearly Dependent
+  + Linearly Independent / Dependent
   + Wronskian
 + [x] Basis And Dimension
   + Standard Basis
@@ -93,19 +92,20 @@
 + [x] Variation of Parameters
 
 #### 9. System of Differential Equations
-+ [ ] First order linear System
-+ [ ] Vector formulation
-+ [ ] General result for first order Linear Differential Equation
-+ [ ] Nondefective Coefficient Matrix
++ [x] First order linear System
++ [x] Vector formulation
++ [x] General result for first order Linear Differential Equation
++ [x] Nondefective Coefficient Matrix
 + [x] Defective Coefficient Matrix
-+ [ ] Variation of Parameters
++ [x] Variation of Parameters
 
 #### 10. The Laplace Transform
 + [x] Definition of Laplace Transform
++ [x] Unit step function
 + [x] Inverse Laplace Transform
 + [x] Transform of Derivatives
 + [x] First Shifting Theorem
-  + $L[e^{at}f(t)] = $
+  + $L[e^{at}f(t)] = F(s-a)$
 + [x] Second Shifting Theorem
   + $L[u_a(t)g(t-a)] = e^{-as} L[g(t)] = e^{-as} G(s)$
 
