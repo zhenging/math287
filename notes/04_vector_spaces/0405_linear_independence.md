@@ -1,6 +1,6 @@
 ### 4.5 Linear Dependence and Independence
 
-![Graph](45_theorems.JPG)
+![Graph](../assets/04_linear_dependence.JPG)
 
 #### Wronskian
 The Wronskian of $f_1, f_2$ and $f_3$
