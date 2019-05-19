@@ -15,8 +15,11 @@ $$
 $$
 
 **Integrating Factor**
-The function $I = e^{\int p(x)dx}$ is called an integrating factor. 
+The function $I = e^{\int p(x)dx}$ is called an integrating factor.
 
+![Graph](../assets/integrating_factor_proof.JPG)
 
 #### Homework
 1.6 p.59 1-19 odd (#19-see my answer)
+
+![Graph](../assets/integrating_factor_ex.JPG)

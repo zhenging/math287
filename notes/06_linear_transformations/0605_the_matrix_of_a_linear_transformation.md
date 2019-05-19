@@ -17,6 +17,8 @@ If $V=W$ and $T(v) = v$ for all $v$ in $V$, then $[T]_B^C$ is just the change of
 
 $[T(v)]_C = [T]_B^C[v]_B$
 
+![Graph](../assets/matrix_of_linear_transformation.JPG)
+
 #### Homework
 p.426 1a, 2a, 3a, 4a
 

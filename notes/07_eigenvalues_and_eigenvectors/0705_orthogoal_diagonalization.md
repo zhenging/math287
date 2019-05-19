@@ -17,3 +17,5 @@ That is, $S^{-1} A S = S^T A S = \begin{bmatrix} \lm_1 & 0 & 0 \\ 0 & \lm_2  & 0
 
 #### Homework
 p.473 1-13 odd
+
+![Graph](../assets/orthogonal_diagnonalization.JPG)

@@ -41,8 +41,14 @@
   + Particular Solution
 
 #### 5. Inner Product Spaces
-+ [ ] Definition of Inner Product Spaces
++ [x] Definition of Inner Product Spaces
+  + Standard Inner Product
+  + Function Inner Product
+  + Angle Between Two Vectors
 + [ ] Orthogonal Sets of Vectors
+  + Orthogonal
+  + Unit vectors
+  + Orthonormal
 + [ ] Orthogonal projections
 + [ ] The Gram-Schmidt Process
 
@@ -55,10 +61,10 @@
 
 #### 7. Eigenvalues and Eigenvectors
 + [x] Eigenvalues and Eigenvectors proble,
-+ [ ] Eigenspace
-+ [ ] Nonedefective Matrices
-+ [ ] Diagonalization
-+ [ ] Orthogonal Diagonalization
++ [x] Eigenspace
++ [x] Nonedefective Matrices
++ [x] Diagonalization
++ [x] Orthogonal Diagonalization
 
 #### 1. First Order Differential Equations
 + [x] Ordinary Differential Equation (Only one independent variable)
@@ -74,9 +80,16 @@
 + [x] Auxiliary Polinomial
   + Real Roots
   + Complex Roots
-+ [ ] Method of Undetermined Coefficients
-  + [ ] Annihilators
-  + [x] Trial Solution
++ [x] Method of Undetermined Coefficients
+  + [x] Annihilators
+    + [x] Trial Solution
++ [ ] Spring
+  + Overdamped (two distinct real roots)
+  + Critically damped (identical roots)
+  + Underdamped (Complex roots)
++ [x] RLC Circuit
+  + Transient State - Complementary
+  + Steady State - Particular
 + [x] Variation of Parameters
 
 #### 9. System of Differential Equations
@@ -84,15 +97,17 @@
 + [ ] Vector formulation
 + [ ] General result for first order Linear Differential Equation
 + [ ] Nondefective Coefficient Matrix
-+ [ ] Defective Coefficient Matrix
++ [x] Defective Coefficient Matrix
 + [ ] Variation of Parameters
 
 #### 10. The Laplace Transform
 + [x] Definition of Laplace Transform
 + [x] Inverse Laplace Transform
-+ [ ] Transform of Derivatives
++ [x] Transform of Derivatives
 + [x] First Shifting Theorem
-+ [ ] Second Shifting Theorem
+  + $L[e^{at}f(t)] = $
++ [x] Second Shifting Theorem
+  + $L[u_a(t)g(t-a)] = e^{-as} L[g(t)] = e^{-as} G(s)$
 
 #### 11. Series Solutions to linear Differential Equations
 + [ ] Series Solution to LDE

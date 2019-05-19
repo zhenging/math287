@@ -18,3 +18,7 @@ $$
 
 #### Homework
 9.4 p.607 1-15 odd, 17, 18
+
+![Graph](../assets/nondefective_coefficient_vde_ex1.JPG)
+
+![Graph](../assets/nondefective_coefficient_vde_ex2.JPG)

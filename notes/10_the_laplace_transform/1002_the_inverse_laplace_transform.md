@@ -19,3 +19,5 @@ $$
 
 #### Homework
 10.2 p.682 7-21 odd
+
+![Graph](../assets/laplace_inverse.JPG)

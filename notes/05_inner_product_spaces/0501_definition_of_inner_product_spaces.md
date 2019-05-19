@@ -35,7 +35,7 @@ $$
 In the vector space $C^0[a, b]$ of all real-valued functions that are continuous on the interval $[a, b]$, we define the mapping $\la f, g\ra$ by
 $$
 \begin{aligned}
-\tag{5.1.5} \la f, g\ra &= \int_a^b f(x)g(x) dx
+\la f, g\ra &= \int_a^b f(x)g(x) dx
 \end{aligned}
 $$
 
@@ -45,7 +45,6 @@ $$
 \cos\th &= \frac{\la v, w\ra}{||v|| ||w||}
 \end{aligned}
 $$
-
 
 #### Homework
 p.350 1-4, 12, 13, 19-21

@@ -2,3 +2,5 @@
 
 #### Homework
 8.5 handout 1-11 all
+
+![Graph](../assets/spring.JPG)

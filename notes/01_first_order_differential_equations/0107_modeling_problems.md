@@ -2,3 +2,5 @@
 
 #### Homework
 1.7 p.69 1-6 all
+
+![Graph](../assets/modeling_problem.JPG)

@@ -17,6 +17,8 @@ where the $a_{ij}(t)$ and $b_i(t)$ are specified functions on the interval $I$, 
 #### Homework
 9.1 p.587 1-6 all, 9, 10, 12, 13, 15-19 all
 
+![Graph](../assets/first_order_system.JPG)
+
 12-13\. Solve the given nonhomogeneous system
 12\. $x_1' = x_1 + 2x_2 + 5e^{4t}$, $x_2' = 2x_1 + x_2$
 >Solution

@@ -50,3 +50,5 @@ Let $A = \begin{bmatrix}
  det(A) = 1(1) + (-2)(1) = -1 \ne 0
  $$
  Thus $S$ spans $\R^3$.
+
+ ![Graph](../assets/nullspace_ex.JPG)

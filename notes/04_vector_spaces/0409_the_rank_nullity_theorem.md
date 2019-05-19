@@ -25,6 +25,5 @@ Let $A$ be an $n\times n$ matrix with real elements. The following conditions on
 + $\text{colspace}(A) = \R^N$ (that is, the columns of $A$ form a basis for $\R^n$).
 + $\text{rowspace}(A) = \R^N$ (that is, the rows of $A$ form a basis for $\R^n$).
 
-
 #### Homework
 p.330 1-13 all
